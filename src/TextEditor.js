@@ -26,7 +26,7 @@ export default function TextEditor() {
 
     // makes connection to server
     useEffect(() => {
-        const s = io("https://gdc-server.herokuapp.com/", { withCredentials: true });
+        const s = io("https://gdc-server.herokuapp.com", { withCredentials: true });
         setSocket(s);
 
         return () => {

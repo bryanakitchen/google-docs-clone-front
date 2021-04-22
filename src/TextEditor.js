@@ -26,7 +26,7 @@ export default function TextEditor() {
 
     // makes connection to server
     useEffect(() => {
-        const s = io("https://google-docs-clone-server.herokuapp.com/");
+        const s = io("https://gdc-server.herokuapp.com/");
         setSocket(s);
 
         return () => {

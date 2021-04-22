@@ -21,7 +21,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://google-docs-clone.netlify.app",
   "eslintConfig": {
     "extends": [
       "react-app",
